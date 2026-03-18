@@ -44,7 +44,10 @@ src/
         └── send-email.dto.ts      # Contrato y validación del body
 .env.example                       # Plantilla de variables de entorno
 ```
-
+---
+## NOTA LIBRERIAS A AÑADIR
+  "@azure/communication-email": "latest"                                                                                                                                                                                                                                                                                       
+  - @azure/communication-email — el SDK de Azure que provee EmailClient y EmailMessage. Sin esto no hay integración con ACS.                                             
 ---
 
 ## 3. Configuración del entorno
